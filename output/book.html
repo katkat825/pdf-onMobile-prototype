@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PDF Export</title>
+  <style>
+/* ── Reset / base ── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #111;
+    background: #fafafa;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 1rem 1.25rem;
+}
+
+/* ── Headings ── */
+h1, h2, h3, h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.2;
+    margin: 1.5em 0 0.4em;
+}
+h1 { font-size: 2em;   }
+h2 { font-size: 1.6em; }
+h3 { font-size: 1.3em; }
+h4 { font-size: 1.1em; }
+
+/* ── Paragraphs ── */
+p { margin: 0.6em 0; }
+
+/* ── Page sections ── */
+.page {
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 2em;
+    margin-bottom: 2.5em;
+}
+
+/* ── Page render (original visual) ── */
+.page-render {
+    margin: 0 0 1.25em;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    overflow: hidden;
+    background: #fff;
+}
+.page-render img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* ── Inline content images extracted from PDF ── */
+.content-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1em auto;
+}
+
+/* ── Mobile ── */
+@media (max-width: 600px) {
+    body { padding: 0.4rem; font-size: 0.95rem; }
+}
+
+  </style>
+</head>
+<body>
+<div class="page" id="page-1">
+<figure class="page-render">
+  <img src="renders/page_0001.jpg" alt="Original page 1" loading="lazy">
+</figure>
+<div class="page-text">
+<p>SCIENCE</p>
+<h3>FICTION ADVENTURE IN THE FAR FUTURE</h3>
+</div>
+</div>
+
+<div class="page" id="page-2">
+<figure class="page-render">
+  <img src="renders/page_0002.jpg" alt="Original page 2" loading="lazy">
+</figure>
+<div class="page-text">
+<h3>THE</h3>
+<h3>CREDITS CLASSIC TRAVELLER</h3>
+<p>Marc Miller</p>
+<h3>MONGOOSE TRAVELLER</h3>
+<h3>AUTHOR</h3>
+<p>Geir Lanesskog</p>
+<h3>EDITOR</h3>
+<p>Matthew Sprange</p>
+<h3>LAYOUT AND GRAPHIC DESIGN</h3>
+<p>Katrina Hepburn</p>
+<h3>ILLUSTRATIONS</h3>
+<p>Sergio Villa, Alessandro Belgiovine, Alfredo Dosztal, Quentin Soubrouillard, Alvaro Nebot, Anderson Maia, Joanna Materek, Alejandro Arevalo, Mark Graham, Miko Ybanez, Sherif Wagdy, Nikita Vasichuk, Andoni Fernandez, Dimitar Spasov, Brandon Barnes, Jonathan Torres, Josep Pérez, Xavier Bernard</p>
+<h3>PROOFING</h3>
+<p>Charlotte Law</p>
+<h3>TRAVELLER INNER CIRCLE</h3>
+<p>Andrew James, Alan Welty, Colin Dunn, M. J. Dougherty, Rob Eaglestone, Sam Wissa, Joshua Bell, Maksim Smelchak, Geir Lanesskog, Christopher Griffen</p>
+<p>Traveller ©2022 Mongoose Publishing. All rights reserved. Reproduction All significant characters, names, places, items, art and text herein are</p>
+<p>This game product contains no Open Game Content. No portion of this Game License, please go to www.mongoosepublishing.com.</p>
+<p>This material is protected under the copyright laws of the United Kingdom organisations, places or events is purely coincidental.</p>
+<p>Traveller is a trademark of Far Future Enterprises and is used under</p>
+<p>Printed in China.</p>
+<h3>TROVELLER SPINWARD EXTENTS</h3>
+<h3>CONTENTS</h3>
+<h3>INTRODUCTION THE BEYOND VANGUARD REACHES INDEX</h3>
+<p>of this work by any means without the written permission of the publisher is expressly forbidden. copyrighted by Mongoose Publishing.</p>
+<p>work may be reproduced in any form without written permission. To learn more about the Open</p>
+<p>and of the United States. This product is a work of fiction. Any similarity to actual people,</p>
+<p>licence.</p>
+</div>
+</div>
+
+<div class="page" id="page-3">
+<figure class="page-render">
+  <img src="renders/page_0003.jpg" alt="Original page 3" loading="lazy">
+</figure>
+<div class="page-text">
+<p>Spinward of the Third Imperium, rimward of the Zhodani Consulate and coreward of the Aslan Hierate are sectors at the edge of Charted Space, home to alien races, lost colonies and people seeking new homes. The Beyond and the Vanguard Reaches are turbulent sectors, full of small interstellar states and isolated worlds.</p>
+<p>A scattering of Humaniti from various races first arrived in the region more than 3,000 years ago and Aslan began to encroach 1,000 years after, creating conflict that continued for more than a millennium, but only in the past five centuries has the Spinward Extends been fully settled. Old empires persist, new empires have formed and interstellar technology has spread to native races, allowing them to form their own empires. The Sred*Ni, Murians and Eslyat share the stage with Major Races. The Kemlae, Freni, Zhdianshe and others have left their homeworlds to travel among the stars.</p>
+<p>The Spinward Extents are not immune to the power struggles of great states but local interests and rivalries matter more than wars between Consulate and Imperium. Exiles and renegades, entrepreneurs and prophets have space to bring unique cultures to life. Others just want to be left alone. The tapestry of cultures and the gaps between them allow for adventure and intrigue, wonder and terror, for those who dwell in the Spinward Extents.</p>
+<h3>BASES IN THE SPINWARD EXTENTS</h3>
+<p>The most common bases in the Imperium are detailed on page 259 of the Traveller Core Rulebook but several others can be found in The Beyond and Vanguard Reaches, and are marked in the subsector descriptions later in this book.</p>
+<p>Aslan Clan Stronghold</p>
+<h3>(ACS):</h3>
+<p>A large Aslan clan facility — the world is likely the home of an important pride or is strategically important.</p>
+<p>Corsair Base</p>
+<h3>(C):</h3>
+<p>Popularised by Vargr, corsair bases do not have the full range of facilities as naval bases but provide enough to refuel and maintain corsair ships. A corsair base is often the main staging point from which raids are conducted.</p>
+<p>Military Base</p>
+<h3>(M):</h3>
+<p>These are planetary facilities for the support, maintenance, repair and refit of ground vehicles and troops.</p>
+</div>
+</div>
+
+<div class="page" id="page-4">
+<figure class="page-render">
+  <img src="renders/page_0004.jpg" alt="Original page 4" loading="lazy">
+</figure>
+<div class="page-text">
+<p>The Beyond lies entirely outside of the Third Imperium and Zhodani Consulate and at the edge of Aslan expansion behind the Claw. Large empires have never claimed its space but adventurous, determined or desperate settlers among Humaniti, Aslan and Vargr have encroached upon the once uncharted star systems of The Beyond for nearly 3,000 years. Although Major Races from distant worlds have carved out slices of the sector, the native Sred*Ni and neighbouring Floriani hold territory and resist encroachment.</p>
+<p>A few native races and a scattering of sophonts transplanted by the Ancients have occupied a small number of systems in The Beyond for hundreds of thousands of years. The first starfaring humans to settle in the sector were dissidents from the Sindalian Empire in the neighbouring Trojan Reach. This Sindalian Diaspora continued until -1400, bringing civilisation to a few dozen worlds with many joining the Corellan League, a confederation of occasionally fractious systems.</p>
+<p>A thousand years prior to the formation of the Third Imperium, Aslan explorers and settlers from across the Great Rift began to encroach into the sector’s rimward and trailing corner. The eventual contact and conflict between the League and expanding Aslan marked a second era in the history of The Beyond. For 1,000 years, Humaniti and Aslan fought a dozen conflicts. The arrival of scouts from the Third Imperium during the early 200s brought news of resurgent human civilisation. However, aid came not in ships or troops but in diplomacy, which ended the Aslan Expeditions with the Peace of Kaiear in 422, more than 40 years after the Peace of Ftahalr had brought amity between the Third Imperium and the Aslan Hierate.</p>
+<p>Only then did new human settlers from the Third Imperium begin to arrive, sporadically at first, then in a Great Pulse of immigration in the 600s following the turbulent period of the first two Frontier Wars and the Civil War. The sporadic waves of settlers from Imperial space marked the beginning of the present era of The Beyond’s history, with the region becoming more reliably linked to the wider civilisations of Charted Space. The Beyond remains a volatile frontier region, with various races and states trading, competing and occasionally fighting to carve out their piece of the sector.</p>
+<h3>PRE-ASLAN ERA</h3>
+<p>The first non-native settlers to enter The Beyond after the fall of the Ancients were dissidents and refugees from the Sindalian Empire. For centuries, a few sparsely populated worlds represented one of the furthest outposts of Solomani-descended Humaniti. Although pre-Maghiz Darrian scouts and Vargr settlers began to arrive from trailing and coreward in the latter part of this period, the arrival of the first wave of Aslan settlers was what ended this early era of The Beyond’s history.</p>
+<h3>ASLAN EXPEDITIONARY ERA</h3>
+<p>The arrival of Aslan scouts and jhatei settlers changed the nature of The Beyond. No longer was it an isolated and sparsely settled region subject to few outside influences. The stress of Aslan expansion, and to a lesser degree the arrival on the interstellar scene of the Floriani and Sred*Ni, brought external pressures on the squabbling post-Sindalian settlements, at times uniting and at others fragmenting the Humaniti of The Beyond. For 1,000 years, conflict dominated the region with a dozen Aslan Expeditions — wars — fought between -603 and 422.</p>
+<h3>SETTLEMENT ERA</h3>
+<p>The Imperial consul of Waypoint (Tartakover), Alberto Rannvik, later Baron Rannvik, negotiated an end to 1,000 years of conflict between the Corellan League and the Aslan Hierate — or technically began an armistice with the 11 clans who signed the Peace of Kaiear. The Storm Knights, long a fixture of Corellan culture and myth, removed themselves from active participation in League matters and became rulers of the Stormhaven Republic buffer state. This landmark treaty also began the period of influence of the Third Imperium upon The Beyond. Prior to this era, the only permanent Imperial presence was the research station at Delta Cephei. In the century following the Peace of Kaiear, Imperial scouts, traders and even settlers began to affect the politics and demographics of The Beyond. By the 600s, a Great Pulse of Imperial settlers entered The Beyond, with some continuing spinward into the Vanguard Reaches. Some of these new settlers were absorbed by existing systems and states, others founded new settlements and governments, which persist into present times.</p>
+</div>
+</div>
+
+<div class="page" id="page-5">
+<figure class="page-render">
+  <img src="renders/page_0005.jpg" alt="Original page 5" loading="lazy">
+</figure>
+<div class="page-text">
+<p>ee</p>
+<h3>TIMELINE</h3>
+<p>=-300000 =-290000 =-20000 =18000 =-2000 4733 4598 1507 1531</p>
+<p>-1482 | Miranda (Centrum) settled by Corellan colonists as a mining outpost ~-1450 | Oberon (Htoleakh) and Halifax (Eteasteah) resettled by Sindalian refugees and</p>
+<p>-1237 | First Corellan League Crisis occurs as Centrum and Valhalla secede -1132 | Treaty of Centrum returns Centrum and Valhalla to the Corellan League Tentative contact between Corellan and Darrian scouts at Kazar.</p>
+<p>-113 | The Sred*Ni acquire jump drive technology from a seized Corellan transport -104 | Waypoint (Tartakover) settled as a Corellan trading outpost to Bruhkarr 40 | Peopus settled by the Florian League as a mining colony The Aslan deviant Aioaoa clan settles on the world Aioaoa</p>
+<p>203 234</p>
+<p>347 420 221 422 433 530 | Migration of primarily religious settlers from the Imperium begins i</p>
+<p>-1409 | Corellan League Reformed Constitution is signed -1409 | Miranda is renamed Centrum and becomes the Corellan League capital ~-1400 | Keshto, Valhalla, Yangikent and Garrone (Stormhaven) settled at the end of the</p>
+<h3>BEYOND THE</h3>
+<p>Vargr colonisation of Thoznaen -873 | Second Corellan Crisis begins as Valhalla and Garrone secede ~-800 | First Aslan scouts and reach The Beyond.</p>
+<p>-603 | The First Expedition begins as the Storm Knights attempt to liberate Halifax from</p>
+<p>-123 | Countess Fatima, exiled from Albe, settles Bruhkarr with her household and -1520 | Pritchard settled by Pritchard | from Salif.</p>
+<p>-225 | The Floriani acquire jump drive technology from a wrecked Aslan ship. -793 | Treaty of Garrone strengthens the League and establishes the Corellan League Oberon is overrun by Aslan jhatei. Refugees flee to Halifax and settle Charanta -604 | Halifax is overrun by ihatei. The Storm Knights are established on Garrone</p>
+<p>i</p>
+<p>defectors</p>
+<p>Sindalian Diaspora</p>
+<p>the Aslan</p>
+<p>followers Star Fleet</p>
+</div>
+</div>
+
+</body>
+</html>
